@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+
+}
+html{
+    scroll-behavior:smooth;
+}
+.carousel-caption{
+    left:8%;
+    right:auto;
+    bottom:25%;
+    text-align:left;
+}
+
+.carousel-caption h1{
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+
+.carousel-caption p{
+   
+    max-width:500px;
+    font-size:22px;
+    color:white;
+}
+
+.carousel-item img{
+    height:100vh;
+    object-fit:cover;
+    filter:brightness(50%);
+}
+.caption-center{
+    right:auto;
+    left:0;
+    bottom:28%;
+    text-align:center;
+}
+
+.caption-center p{
+   text-align: center;
+   margin: auto;
+}
+.nav-link:hover{
+    color:#39ff14 !important;
+}
+.btn-success{
+    background-color:#39ff14 !important;
+    border:none;
+    color:white;
+}
+
+.about h2{
+    text-align: center;
+}
+.card{
+    text-align: center;
+}
+.card img {
+   
+    height:280px;
+    object-fit:cover;
+}
+
+.container-fluid{
+    background-color: black;
+    width:100%;
+    color: white;
+}
+#aboutus img{
+     
+    width:70%;
+    max-width:500px;
+    height:330px;
+    object-fit:cover;
+    border-radius:20px;
+    margin-top:60px;
+}
+ .margin h3{
+    padding-top: 20px;
+ }  
+ .margin p{
+   
+    padding-top:20px;
+    line-height:1.8;
+}
+ 
+ .services{
+    text-align: center;
+    background-color: black;
+    padding:80px 40px;
+   
+    
+ }
+ 
+ .gallery-img{
+    width: 100%;
+    height: 100px;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #39ff14;
+}
+#testimonialcarousel{
+    position: relative;
+    padding: 60px 0;
+}
+.testimonial-card img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+    
+}
+
+.testimonial-card{
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+#testimonialcarousel .carousel-control-prev{
+    left: 20;
+}
+
+#testimonialcarousel .carousel-control-next{
+    right: 20;
+}
+
+#testimonialcarousel .carousel-control-prev-icon,
+#testimonialcarousel .carousel-control-next-icon{
+    background-color: #39ff14;
+    border-radius: 50%;
+    padding: 20px;
+}
+.form-control{
+    padding:15px;
+    border-radius:10px;
+}
+footer p{
+    margin:0;
+    color:white;
+}
